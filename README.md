@@ -16,7 +16,7 @@ Ask is to:
 ### Architecture
 
 #### Incremental Load
-- ![Process Flow](https://github.com/nitinx/de-serverless-etl/blob/master/architecture_incremental.png)
+- ![Process Flow](architecture_incremental.png)
 
 - Ingestion
 	- Data sourced monthly in CSV format and uploaded into a S3 bucket
@@ -45,7 +45,7 @@ Ask is to:
 		- Setup to reference Glue's Data Catalog and leveraged for analytics
 
 #### History Load
-- ![Process Flow](https://github.com/nitinx/de-serverless-etl/blob/master/architecture_history.png)
+- ![Process Flow](architecture_history.png)
 
 - Incremental load's setup can be leverged with some tweaks:
 	- S3 event trigger to be disabled
